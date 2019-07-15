@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LayoutDemo</string>
+    <string name="video_default_value">5</string>
+    <string name="following_default_value">68</string>
+    <string name="followers_default_value">14</string>
+
+    <string name="video_title">Videos</string>
+    <string name="following_title">Following</string>
+    <string name="followers_title">Followers</string>
+    
+    <string name="default_feed_title">September Sun</string>
+    <string name="default_user_name">Sophia Smith</string>
+    <string name="default_posted_time">17 minutes ago</string>
+    <string name="default_user_weburl">sophiasm.com</string>
+</resources>
