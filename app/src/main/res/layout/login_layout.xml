@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorForLoginLayout"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <include layout="@layout/text_input_username_password" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_large"
+        android:background="@drawable/login_button_background"
+        android:gravity="center"
+        android:text="@string/sign_in_capital"
+        android:textColor="@color/colorForLine"
+        android:textSize="@dimen/text_small"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginVertical="@dimen/margin_horizontal_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_account_suggestion"
+        android:textColor="@color/colorForLine"
+        android:gravity="center"
+        android:textSize="@dimen/text_medium"/>
+
+    <include layout="@layout/or_underline_divider_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/login_button_background"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_large"
+        android:layout_marginVertical="@dimen/margin_horizontal_medium">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_horizontal_small"
+            android:src="@drawable/ic_facebook"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/sign_in_facebook_capital"
+            android:textColor="@color/colorForLine"
+            android:textSize="@dimen/text_small"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="8"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/login_button_background"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_large">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_horizontal_small"
+            android:src="@drawable/ic_google"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:text="@string/sign_in_google_capital"
+            android:textColor="@color/colorForLine"
+            android:textSize="@dimen/text_small"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

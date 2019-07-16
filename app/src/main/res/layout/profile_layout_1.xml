@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/top_card"
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="@dimen/margin_horizontal_small"
         android:layout_marginBottom="-27dp"
         android:src="@drawable/ic_message"
         />
@@ -41,13 +41,14 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/top_card"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="16dp"
+        android:layout_marginRight="@dimen/margin_horizontal_small"
         android:layout_marginBottom="-27dp"
         android:src="@drawable/ic_add"
         android:backgroundTint="#00a9f5"
         />
 
     <LinearLayout
+        android:id="@+id/body_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/top_card"
@@ -58,14 +59,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/default_user_weburl" />
+            android:layout_marginTop="@dimen/default_padding"
+            android:text="@string/david_beckham"
+            android:textSize="@dimen/text_large"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/default_margin_vertical"
             android:gravity="center"
-            android:text="model/superstar" />
+            android:text="model/superstar"
+            android:textColor="@color/colorForProfileCategory"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

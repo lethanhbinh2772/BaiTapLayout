@@ -1,0 +1,29 @@
+<LinearLayout android:layout_width="match_parent"
+    android:id="@+id/ln_or_devider"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="@dimen/margin_horizontal_medium"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_weight="4"
+        android:background="@color/colorForLine"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/or"
+        android:gravity="center"
+        android:textColor="@color/colorForLine"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_weight="4"
+        android:background="@color/colorForLine"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

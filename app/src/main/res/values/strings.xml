@@ -12,4 +12,14 @@
     <string name="default_user_name">Sophia Smith</string>
     <string name="default_posted_time">17 minutes ago</string>
     <string name="default_user_weburl">sophiasm.com</string>
+    <string name="david_beckham">Đa vít Baeck-hâm</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="or">Or</string>
+    <string name="sign_in_capital">SIGN IN</string>
+    <string name="no_account_suggestion">No account yet? Create one</string>
+    <string name="sign_in_facebook_capital">SIGN IN WITH FACEBOOK</string>
+    <string name="sign_in_google_capital">SIGN IN WITH GOOGLE</string>
+
 </resources>

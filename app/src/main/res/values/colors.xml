@@ -3,4 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="colorForLoginLayout">#4BB050</color>
+    <color name="colorForLine">#dddd</color>
+    <color name="colorForButton">#398E3D</color>
+    <color name="colorForProfileCategory">#00a9f5</color>
 </resources>
